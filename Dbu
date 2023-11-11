@@ -564,7 +564,7 @@ local function PGPDYH_fake_script() -- Frame_2.Script
 		{nombre= "YonahanYrael",verificado = true},
 		{nombre= "RpgrGames02",verificado = true},
 		{nombre= "felipe_top2020",verificado = true},
-		{nombre= "yann_maxx",verificado = true},
+		{nombre= "yann_original",verificado = true},
 		{nombre= "",verificado = true},
 		{nombre= "",verificado = true},
 		{nombre= "",verificado = true},
