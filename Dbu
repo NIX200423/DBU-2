@@ -562,12 +562,12 @@ local function PGPDYH_fake_script() -- Frame_2.Script
 		{nombre= "V1T0RKiller157",verificado = true},
 		{nombre= "Facolner02",verificado = true},
 		{nombre= "FinidadSanchez",verificado = true},
-		{nombre= "Azeldex",verificado = true},
+		{nombre= "",verificado = true},
 		{nombre= "felipe_top2020",verificado = true},
 		{nombre= "yann_original",verificado = true},
 		{nombre= "goodCRAZYY1",verificado = true},
 		{nombre= "DaviGamer50000",verificado = true},
-		{nombre= "",verificado = true},
+		{nombre= "SuperSonGokuKaioken",verificado = true},
 		{nombre= "",verificado = true},
 	}
 	local contador = 0
