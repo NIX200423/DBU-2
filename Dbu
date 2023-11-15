@@ -1139,7 +1139,7 @@ end
 				wait(0.1)
 			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Spirit Barrage", "Blacknwhite27")
 				wait(0.1)
-			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Energy Volley", "Blacknwhite27")
+			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Spirit Breaking Cannon", "Blacknwhite27")
 				wait(0.1)
 			game.ReplicatedStorage.Package.Events.mel:InvokeServer("God Slicer", "Blacknwhite27")
 			wait(0.5)
