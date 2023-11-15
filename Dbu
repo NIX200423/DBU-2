@@ -1147,7 +1147,7 @@ end
 			wait(0.5)
 			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Vital Strike", "Blacknwhite27")
 			wait(1)
-			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Flash Kick", "Blacknwhite27")
+			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Meteor Strike", "Blacknwhite27")
 		end
 	end
 	
