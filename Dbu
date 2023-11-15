@@ -1132,7 +1132,7 @@ end
 	local function ataquesMultiquest()
 		kiRequerimiento()
 		if data.Strength.Value >10000000 and ki > caca and data.Strength.Value <2000000000000 then
-			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Orb Destruction", "Blacknwhite27")
+			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Destruction Orb", "Blacknwhite27")
 			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Destruction", "Blacknwhite27")
 			game.ReplicatedStorage.Package.Events.mel:InvokeServer("High Power Rush", "Blacknwhite27")
 			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Mach Kick", "Blacknwhite27")
@@ -1145,9 +1145,9 @@ end
 			wait(0.5)
 		elseif data.Strength.Value <= 10000000 and ki > caca then
 			wait(0.5)
-			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Wolf Fang Fist", "Blacknwhite27")
+			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Sou Punisher", "Blacknwhite27")
 			wait(1)
-			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Energy Volley", "Blacknwhite27")
+			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Wolf Fang", "Blacknwhite27")
 		end
 	end
 	
