@@ -476,7 +476,7 @@ local function IIJT_fake_script() -- verJugadores.Script
 			y = y + 0.05
 			contador = contador + 1
 		end
-		textoContador.Text = "Jugadores En Partida: "..contador
+		textoContador.Text = "Stats Players: "..contador
 	end
 	
 	local function resetFrame()	-- lipiar el menu
@@ -520,7 +520,7 @@ local function PCCXXGM_fake_script() -- reb.Script
 	
 	local function a()
 		while rebSiONo do
-			botona.Text = "Rebirth Activo"
+			botona.Text = "Rebirth On"
 			game:GetService("ReplicatedStorage"):WaitForChild("Package"):WaitForChild("Events"):WaitForChild("reb"):InvokeServer()
 			wait(0.1)
 		end
@@ -531,7 +531,7 @@ local function PCCXXGM_fake_script() -- reb.Script
 			verdad = false
 			rebSiONo = false
 			print("Has cancelado reb")
-			botona.Text = "Rebirth Cancelado"
+			botona.Text = "Rebirth Off"
 		else
 			verdad = true
 			rebSiONo = true
@@ -1145,9 +1145,9 @@ end
 			wait(0.5)
 		elseif data.Strength.Value <= 10000000 and ki > caca then
 			wait(0.5)
-			game.ReplicatedStorage.Package.Events.mel:InvokeServer("", "Blacknwhite27")
+			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Energy Volley", "Blacknwhite27")
 			wait(1)
-			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Meteor Strike", "Blacknwhite27")
+			game.ReplicatedStorage.Package.Events.mel:InvokeServer("High Power Rush", "Blacknwhite27")
 		end
 	end
 	
