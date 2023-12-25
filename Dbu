@@ -564,7 +564,7 @@ local function PGPDYH_fake_script() -- Frame_2.Script
 		{nombre= "FinidadSanchez",verificado = true},
 		{nombre= "DanteAono",verificado = true},
 		{nombre= "felipe_top2020",verificado = true},
-		{nombre= "Daviddornela",verificado = true},
+		{nombre= "daviddornela",verificado = true},
 		{nombre= "",verificado = true},
 		{nombre= "DaviGamer50000",verificado = true},
 		{nombre= "SuperSonGokuKaioken",verificado = true},
@@ -594,13 +594,13 @@ local function PGPDYH_fake_script() -- Frame_2.Script
 	
 	if contador >=20 then
 		while true do
-			tetxo.Text = "La prueba gratuita ha finalizado!"
+			tetxo.Text = "An error has occurred"
 			wait(3)
-			tetxo.Text = "No puedes seguir!"
+			tetxo.Text = "cannot follow."
 			wait(2)
 		end
 	else
-		tetxo.Text ="Iniciando farm"
+		tetxo.Text ="Starting..."
 		wait(1)
 		frameOriginal:Destroy()
 		wait(1)
@@ -616,7 +616,7 @@ local function PGPDYH_fake_script() -- Frame_2.Script
 		game:GetService("ReplicatedStorage").Package.Events.TP:InvokeServer("Vills Planet")
 	end
 	local function statsAltos()
-		textoStats.Text = "Subiendo manualmente"
+		textoStats.Text = "AutoFarm"
 		local player = game.Players.LocalPlayer
 		local statsFolder = game.Workspace.Living[player.Name].Stats
 		local strength = statsFolder.Strength
