@@ -563,12 +563,12 @@ local function PGPDYH_fake_script() -- Frame_2.Script
 		{nombre= "iiDarkOfShadow",verificado = true},
 		{nombre= "MDLKingtails",verificado = true},
 		{nombre= "Drip_gokuthegoat",verificado = true},
-		{nombre= "Kiros_Amv",verificado = true},
-		{nombre= "Jorge_Yael55",verificado = true},
-		{nombre= "noblemax123",verificado = true},
-		{nombre= "caramelitomalo123",verificado = true},
-		{nombre= "Pato902v",verificado = true},
-		{nombre= "UwpBypass1",verificado = true},
+		{nombre= "",verificado = true},
+		{nombre= "x",verificado = true},
+		{nombre= "",verificado = true},
+		{nombre= "",verificado = true},
+		{nombre= "",verificado = true},
+		{nombre= "",verificado = true},
 	}
 	local contador = 0
 	
