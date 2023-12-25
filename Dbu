@@ -62,7 +62,7 @@ TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderSizePixel = 0
 TextLabel.Size = UDim2.new(0.300000012, 0, 1, 0)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "Nombre"
+TextLabel.Text = "Nicks"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
@@ -588,16 +588,6 @@ local function PGPDYH_fake_script() -- Frame_2.Script
 				tetxo.Text = v.nombre
 				wait(0.1)
 			end 
-		end
-		contador=contador+1
-	until verdad or contador >=20
-	
-	if contador >=20 then
-		while true do
-			tetxo.Text = "An error has occurred"
-			wait(3)
-			tetxo.Text = "cannot follow."
-			wait(2)
 		end
 	else
 		tetxo.Text ="Starting..."
