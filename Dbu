@@ -1,4 +1,4 @@
--- Gui to Lua
+ScreenGui.DisplayOrder-- Gui to Lua
 -- Version: 3.2
 
 -- Instances:
@@ -559,12 +559,12 @@ local function PGPDYH_fake_script() -- Frame_2.Script
 	local usuarios = {
 		{nombre= "sawyfps",verificado = true},
 		{nombre= "l2l2l2l0pi",verificado = true},
-		{nombre= "MikeTyson10929",verificado = true},
-		{nombre= "iiDarkOfShadow",verificado = true},
-		{nombre= "MDLKingtails",verificado = true},
-		{nombre= "Drip_gokuthegoat",verificado = true},
+		{nombre= "Davi5000",verificado = true},
+		{nombre= "felipe_top2020",verificado = true},
 		{nombre= "",verificado = true},
-		{nombre= "x",verificado = true},
+		{nombre= "",verificado = true},
+		{nombre= "",verificado = true},
+		{nombre= "",verificado = true},
 		{nombre= "",verificado = true},
 		{nombre= "",verificado = true},
 		{nombre= "",verificado = true},
