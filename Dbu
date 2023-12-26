@@ -30,7 +30,7 @@ local TextLabel_7 = Instance.new("TextLabel")
 local names = Instance.new("TextLabel")
 
 --no borrar
-ScreenGui.Name = "ModMenu"
+ScreenGui.Name = "Menu"
 ScreenGui.ResetOnSpawn = false
 ScreenGui.DisplayOrder = 999
 ScreenGui.Parent = player.PlayerGui
@@ -62,7 +62,7 @@ TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderSizePixel = 0
 TextLabel.Size = UDim2.new(0.300000012, 0, 1, 0)
 TextLabel.Font = Enum.Font.SourceSans
-TextLabel.Text = "Nombre"
+TextLabel.Text = "Nick"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
@@ -106,7 +106,7 @@ fase.BorderSizePixel = 0
 fase.Position = UDim2.new(0.750999987, 0, 0, 0)
 fase.Size = UDim2.new(0.219999999, 0, 1, 0)
 fase.Font = Enum.Font.SourceSans
-fase.Text = "Fase"
+fase.Text = "Form"
 fase.TextColor3 = Color3.fromRGB(0, 0, 0)
 fase.TextScaled = true
 fase.TextSize = 14.000
@@ -123,7 +123,7 @@ contador.Position = UDim2.new(0.787851334, 0, 0.85546875, 0)
 contador.Size = UDim2.new(0, 176, 0, 43)
 contador.Visible = false
 contador.Font = Enum.Font.SourceSans
-contador.Text = "Jugadroes En Partida"
+contador.Text = "Players In Server"
 contador.TextColor3 = Color3.fromRGB(255, 255, 255)
 contador.TextScaled = true
 contador.TextSize = 14.000
@@ -145,7 +145,7 @@ TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.BorderSizePixel = 0
 TextButton.Size = UDim2.new(1, 0, 0.100000001, 0)
 TextButton.Font = Enum.Font.Unknown
-TextButton.Text = "Farm MultiQuest"
+TextButton.Text = "Farm"
 TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.TextScaled = true
 TextButton.TextSize = 14.000
@@ -164,7 +164,7 @@ verJugadores.BorderSizePixel = 2
 verJugadores.Position = UDim2.new(0.5, 0, 0, 1)
 verJugadores.Size = UDim2.new(0.99000001, 0, 0.119999997, 0)
 verJugadores.Font = Enum.Font.SourceSans
-verJugadores.Text = "Ver Jugadores"
+verJugadores.Text = "View Users Stats"
 verJugadores.TextColor3 = Color3.fromRGB(0, 0, 0)
 verJugadores.TextScaled = true
 verJugadores.TextSize = 14.000
@@ -181,7 +181,7 @@ reb.BorderSizePixel = 2
 reb.Position = UDim2.new(0.5, 0, 0.100000001, 8)
 reb.Size = UDim2.new(0.99000001, 0, 0.100000001, 0)
 reb.Font = Enum.Font.SourceSans
-reb.Text = "Rebirth ON"
+reb.Text = "Rebirth On"
 reb.TextColor3 = Color3.fromRGB(0, 0, 0)
 reb.TextScaled = true
 reb.TextSize = 14.000
@@ -249,7 +249,7 @@ faseName.BorderSizePixel = 0
 faseName.Position = UDim2.new(0.5, 0, 0.649999976, 0)
 faseName.Size = UDim2.new(1, 0, 0.119999997, 0)
 faseName.Font = Enum.Font.SourceSans
-faseName.Text = "..."
+faseName.Text = "...?"
 faseName.TextColor3 = Color3.fromRGB(0, 0, 0)
 faseName.TextScaled = true
 faseName.TextSize = 14.000
@@ -273,7 +273,7 @@ TextLabel_4.BorderSizePixel = 0
 TextLabel_4.Position = UDim2.new(0.5, 0, 0, 0)
 TextLabel_4.Size = UDim2.new(1, 0, 0.100000001, 0)
 TextLabel_4.Font = Enum.Font.Unknown
-TextLabel_4.Text = "Usuario detectado"
+TextLabel_4.Text = "User Detected"
 TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_4.TextScaled = true
 TextLabel_4.TextSize = 14.000
@@ -304,7 +304,7 @@ TextLabel_5.BorderSizePixel = 0
 TextLabel_5.Position = UDim2.new(0.5, 0, 0.600000024, 0)
 TextLabel_5.Size = UDim2.new(1, 0, 0.119999997, 0)
 TextLabel_5.Font = Enum.Font.Unknown
-TextLabel_5.Text = "Discord:"
+TextLabel_5.Text = "Translated by:"
 TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_5.TextScaled = true
 TextLabel_5.TextSize = 14.000
@@ -320,7 +320,7 @@ TextLabel_6.BorderSizePixel = 0
 TextLabel_6.Position = UDim2.new(0.5, 0, 0.75, 0)
 TextLabel_6.Size = UDim2.new(1, 0, 0.150000006, 0)
 TextLabel_6.Font = Enum.Font.SourceSansItalic
-TextLabel_6.Text = "j.robert_oppenheimer"
+TextLabel_6.Text = "1SK1_NIX"
 TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_6.TextScaled = true
 TextLabel_6.TextSize = 14.000
@@ -345,7 +345,7 @@ TextLabel_7.BorderSizePixel = 0
 TextLabel_7.Position = UDim2.new(0.5, 0, 0.100000001, 0)
 TextLabel_7.Size = UDim2.new(0.800000012, 0, 0.300000012, 0)
 TextLabel_7.Font = Enum.Font.Unknown
-TextLabel_7.Text = "Usuarios"
+TextLabel_7.Text = "Users"
 TextLabel_7.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_7.TextScaled = true
 TextLabel_7.TextSize = 14.000
@@ -580,7 +580,7 @@ local function PGPDYH_fake_script() -- Frame_2.Script
 					game:GetService("ReplicatedStorage").Package.Events.NewGame:InvokeServer()
 					end
 				end
-				tetxo.Text = "	encontrado!"
+				tetxo.Text = "	Starting"
 				wait(0.3)
 				tetxo.Text = v.nombre
 				verdad = true
@@ -594,13 +594,13 @@ local function PGPDYH_fake_script() -- Frame_2.Script
 	
 	if contador >=20 then
 		while true do
-			tetxo.Text = "La prueba gratuita ha finalizado!"
+			tetxo.Text = "Error Ocurred"
 			wait(3)
-			tetxo.Text = "No puedes seguir!"
+			tetxo.Text = "Don´t Work"
 			wait(2)
 		end
 	else
-		tetxo.Text ="Iniciando farm"
+		tetxo.Text ="Starting"
 		wait(1)
 		frameOriginal:Destroy()
 		wait(1)
@@ -616,7 +616,7 @@ local function PGPDYH_fake_script() -- Frame_2.Script
 		game:GetService("ReplicatedStorage").Package.Events.TP:InvokeServer("Vills Planet")
 	end
 	local function statsAltos()
-		textoStats.Text = "Subiendo manualmente"
+		textoStats.Text = "Farm Working"
 		local player = game.Players.LocalPlayer
 		local statsFolder = game.Workspace.Living[player.Name].Stats
 		local strength = statsFolder.Strength
@@ -695,7 +695,7 @@ local function PGPDYH_fake_script() -- Frame_2.Script
 	end
 	
 	local function statsBajos()
-		textoStats.Text = "Subiendo manualmente JR"
+		textoStats.Text = "Farm Working Two"
 		local player = game.Players.LocalPlayer
 		local statsFolder = game.Workspace.Living[player.Name].Stats
 		local strength = statsFolder.Strength
@@ -857,10 +857,10 @@ local function PGPDYH_fake_script() -- Frame_2.Script
 						warn("Tu ki es de: "..ki.." y el requerimiento es de "..caca)
 						game:GetService("ReplicatedStorage").Package.Events.ta:InvokeServer()
 					else
-						warn("No tienes ki")
+						warn("No Ki)
 					end
 				else
-					warn("Ya tienes la fase")
+					warn("Form Equipped")
 				end
 			until game.Players.LocalPlayer.Status.SelectedTransformation.Value == game.Players.LocalPlayer.Status.Transformation.Value
 			wait(2)
@@ -907,8 +907,8 @@ end
 	-- Farm Logica
 	local function autoquest(boolean)
 		SelectedMobs = ""
-		textoEnemigo.Text = "Buscando..."
-		textoStats.Text = "Detectando mision"
+		textoEnemigo.Text = "Selecting..."
+		textoStats.Text = "Detecting Mission"
 		local a = data.Strength.Value
 		local b = data.Energy.Value
 		local c = data.Defense.Value
