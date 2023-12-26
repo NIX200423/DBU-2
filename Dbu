@@ -476,7 +476,7 @@ local function IIJT_fake_script() -- verJugadores.Script
 			y = y + 0.05
 			contador = contador + 1
 		end
-		textoContador.Text = "Jugadores En Partida: "..contador
+		textoContador.Text = "Players: "..contador
 	end
 	
 	local function resetFrame()	-- lipiar el menu
@@ -488,7 +488,7 @@ local function IIJT_fake_script() -- verJugadores.Script
 		for i,v in ipairs(frame:GetChildren()) do
 			if v:GetChildren()[5] then
 				v:Destroy()
-				print("Destruyendo hijos")
+				print("???")
 			end
 		end
 		players()
@@ -520,7 +520,7 @@ local function PCCXXGM_fake_script() -- reb.Script
 	
 	local function a()
 		while rebSiONo do
-			botona.Text = "Rebirth Activo"
+			botona.Text = "Rebirth On"
 			game:GetService("ReplicatedStorage"):WaitForChild("Package"):WaitForChild("Events"):WaitForChild("reb"):InvokeServer()
 			wait(0.1)
 		end
@@ -531,7 +531,7 @@ local function PCCXXGM_fake_script() -- reb.Script
 			verdad = false
 			rebSiONo = false
 			print("Has cancelado reb")
-			botona.Text = "Rebirth Cancelado"
+			botona.Text = "Rebirth Off"
 		else
 			verdad = true
 			rebSiONo = true
@@ -559,7 +559,7 @@ local function PGPDYH_fake_script() -- Frame_2.Script
 	local usuarios = {
 		{nombre= "sawyfps",verificado = true},
 		{nombre= "l2l2l2l0pi",verificado = true},
-		{nombre= "MikeTyson10929",verificado = true},
+		{nombre= "felipe_top2020",verificado = true},
 		{nombre= "iiDarkOfShadow",verificado = true},
 		{nombre= "MDLKingtails",verificado = true},
 		{nombre= "Drip_gokuthegoat",verificado = true},
@@ -840,7 +840,7 @@ local function PGPDYH_fake_script() -- Frame_2.Script
 	_G.fasesalv=true
 	spawn(function ()
 		while _G.fasesalv do
-			local fases={"Beast","SSJB4","LBSSJ4","SSJR3","SSJB3","True God of Creation","True God of Destruction","God of Destruction","God Of Creation","Jiren Ultra Instinct","Mastered Ultra Instinct","Godly SSJ2","Super Broly","Ultra Instinct Omen","LSSJG","Evil SSJ","Blue Evolution","Dark Rose","Kefla SSJ2","SSJ Berserker","LSSJ4","True Rose","SSJB Kaioken","SSJG4","LSSJ3","SSJ Rose","SSJ Blue","SSJ5","Corrupt SSJ","SSJ Rage","SSJG","SSJ4","SSJ3","SSJ2","SSJ"}
+			local fases={"Blanco","Beast","SSJB4","LBSSJ4","SSJR3","SSJB3","True God of Creation","True God of Destruction","God of Destruction","God Of Creation","Jiren Ultra Instinct","Mastered Ultra Instinct","Godly SSJ2","Super Broly","Ultra Instinct Omen","LSSJG","Evil SSJ","Blue Evolution","Dark Rose","Kefla SSJ2","SSJ Berserker","LSSJ4","True Rose","SSJB Kaioken","SSJG4","LSSJ3","SSJ Rose","SSJ Blue","SSJ5","Corrupt SSJ","SSJ Rage","SSJG","SSJ4","SSJ3","SSJ2","SSJ"}
 			local equipRemote = game:GetService("ReplicatedStorage").Package.Events.equipskill
 			local player = game.Players.LocalPlayer
 			local skills = game.ReplicatedStorage.Package.Skills
