@@ -1106,7 +1106,7 @@ end
 				end
 		end
 	
-		if checkValue >= 150000000 and game.placeId ~= 5151400895  then
+		if checkValue >= 200000000 and game.placeId ~= 5151400895  then
 			for indice, v in ipairs(game:GetService("Workspace").Living:GetChildren()) do
 				delay(0.5,mundoDeBills)
 				if v.Humanoid.Health>0 and v.Name == "SSJG Kakata" then
@@ -1145,9 +1145,9 @@ end
 			wait(0.5)
 		elseif data.Strength.Value <= 10000000 and ki > caca then
 			wait(0.5)
-			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Energy Volley", "Blacknwhite27")
+			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Flash Kick", "Blacknwhite27")
 			wait(1)
-			game.ReplicatedStorage.Package.Events.mel:InvokeServer("High Power Rush", "Blacknwhite27")
+			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Beast Cannon", "Blacknwhite27")
 		end
 	end
 	
