@@ -1151,7 +1151,7 @@ end
 		end
 	end
 	
-	getgenv().stacked = false 
+	getgenv().stacked = true 
 	
 	--Function
 	local function quest()
