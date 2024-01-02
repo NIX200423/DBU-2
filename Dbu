@@ -555,9 +555,6 @@ local tetxo = script.Parent.Parent.verificacion.Frame.names
 local frameFarm = script.Parent
 local frameOriginal = script.Parent.Parent.verificacion
 
--- Removendo a tabela de usuÃ¡rios e a lÃ³gica de verificaÃ§Ã£o
-
--- Adicione aqui a aÃ§Ã£o que deseja executar para qualquer usuÃ¡rio
 tetxo.Text = "Iniciando farm"
 wait(1)
 frameOriginal:Destroy()
