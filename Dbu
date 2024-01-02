@@ -557,18 +557,18 @@ local function PGPDYH_fake_script() -- Frame_2.Script
 	local frameOriginal = script.Parent.Parent.verificacion
 	local verdad = false
 	local usuarios = {
-		{nombre= "sawyfps",verificado = true},
 		{nombre= "l2l2l2l0pi",verificado = true},
-		{nombre= "MikeTyson10929",verificado = true},
-		{nombre= "iiDarkOfShadow",verificado = true},
-		{nombre= "MDLKingtails",verificado = true},
-		{nombre= "Drip_gokuthegoat",verificado = true},
-		{nombre= "Kiros_Amv",verificado = true},
-		{nombre= "Jorge_Yael55",verificado = true},
-		{nombre= "noblemax123",verificado = true},
-		{nombre= "caramelitomalo123",verificado = true},
-		{nombre= "Pato902v",verificado = true},
-		{nombre= "UwpBypass1",verificado = true},
+		{nombre= "sawyfps,verificado = true},
+		{nombre= "Falconer02",verificado = true},
+		{nombre= "daviddornela",verificado = true},
+		{nombre= "GOKUVSJJJ",verificado = true},
+		{nombre= "Oabcoanedksj",verificado = true},
+		{nombre= "felipe_top2020",verificado = true},
+		{nombre= "No User",verificado = true},
+		{nombre= "No User",verificado = true},
+		{nombre= "No User",verificado = true},
+		{nombre= "No User",verificado = true},
+		{nombre= "No User",verificado = true},
 	}
 	local contador = 0
 	
