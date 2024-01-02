@@ -907,7 +907,7 @@ end
 	-- Farm Logica
 	local function autoquest(boolean)
 		SelectedMobs = ""
-		textoEnemigo.Text = "Buscando..."
+		textoEnemigo.Text = "Go to Quest."
 		textoStats.Text = "Detectando mision"
 		local a = data.Strength.Value
 		local b = data.Energy.Value
@@ -1137,13 +1137,13 @@ end
 			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Meteor Strike", "Blacknwhite27")
 			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Spirit Breaking Cannon", "Blacknwhite27")
 				wait(0.1)
-			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Super Dragon Fist", "Blacknwhite27")
+			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Bonner Crusher", "Blacknwhite27")
 				wait(0.1)
 			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Spirit Barrage", "Blacknwhite27")
 				wait(0.1)
 			game.ReplicatedStorage.Package.Events.mel:InvokeServer("God Slicer", "Blacknwhite27")
 			wait(0.5)
-		elseif data.Strength.Value <= 10000000 and ki > caca then
+		elseif data.Strength.Value <= 28000 and ki >28000 caca then
 			wait(0.5)
 			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Mach Kick", "Blacknwhite27")
 			wait(1)
