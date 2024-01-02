@@ -550,55 +550,19 @@ local function PGPDYH_fake_script() -- Frame_2.Script
 	local script = Instance.new('Script', Frame_2)
 
 	--verificacion
-	--variables
-	local player = game.Players.LocalPlayer
-	local tetxo = script.Parent.Parent.verificacion.Frame.names
-	local frameFarm = script.Parent
-	local frameOriginal = script.Parent.Parent.verificacion
-	local verdad = false
-	local usuarios = {
-		{nombre= "sawyfps",verificado = true},
-		{nombre= "l2l2l2l0pi",verificado = true},
-		{nombre= "MikeTyson10929",verificado = true},
-		{nombre= "iiDarkOfShadow",verificado = true},
-		{nombre= "MDLKingtails",verificado = true},
-		{nombre= "Drip_gokuthegoat",verificado = true},
-		{nombre= "Kiros_Amv",verificado = true},
-		{nombre= "Jorge_Yael55",verificado = true},
-		{nombre= "noblemax123",verificado = true},
-		{nombre= "caramelitomalo123",verificado = true},
-		{nombre= "Pato902v",verificado = true},
-		{nombre= "UwpBypass1",verificado = true},
-	}
-	local contador = 0
-	
-	repeat
-		for i,v in ipairs(usuarios) do
-			if v.nombre == player.Name and v.verificado then
-				if v.nombre == "Robloxian260452382" then
-					while wait() do
-					game:GetService("ReplicatedStorage").Package.Events.NewGame:InvokeServer()
-					end
-				end
-				tetxo.Text = "	encontrado!"
-				wait(0.3)
-				tetxo.Text = v.nombre
-				verdad = true
-			else
-				tetxo.Text = v.nombre
-				wait(0.1)
-			end 
-		end
-		contador=contador+1
-	until verdad or contador >=20
-	
-	if contador >=20 then
-		while true do
-			tetxo.Text = "La prueba gratuita ha finalizado!"
-			wait(3)
-			tetxo.Text = "No puedes seguir!"
-			wait(2)
-		end
+	--variableslocal player = game.Players.LocalPlayer
+local tetxo = script.Parent.Parent.verificacion.Frame.names
+local frameFarm = script.Parent
+local frameOriginal = script.Parent.Parent.verificacion
+
+-- Removendo a tabela de usuÃ¡rios e a lÃ³gica de verificaÃ§Ã£o
+
+-- Adicione aqui a aÃ§Ã£o que deseja executar para qualquer usuÃ¡rio
+tetxo.Text = "Iniciando farm"
+wait(1)
+frameOriginal:Destroy()
+wait(1)
+frameFarm.Visible = true
 	else
 		tetxo.Text ="Iniciando farm"
 		wait(1)
