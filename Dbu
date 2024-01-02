@@ -580,7 +580,7 @@ local function PGPDYH_fake_script() -- Frame_2.Script
 					game:GetService("ReplicatedStorage").Package.Events.NewGame:InvokeServer()
 					end
 				end
-				tetxo.Text = "	encontrado!"
+				tetxo.Text = "	Starting..."
 				wait(0.3)
 				tetxo.Text = v.nombre
 				verdad = true
@@ -594,13 +594,13 @@ local function PGPDYH_fake_script() -- Frame_2.Script
 	
 	if contador >=20 then
 		while true do
-			tetxo.Text = "La prueba gratuita ha finalizado!"
+			tetxo.Text = "Your name is not registered."
 			wait(3)
-			tetxo.Text = "No puedes seguir!"
+			tetxo.Text = "try again."
 			wait(2)
 		end
 	else
-		tetxo.Text ="Iniciando farm"
+		tetxo.Text ="Starting Farm"
 		wait(1)
 		frameOriginal:Destroy()
 		wait(1)
