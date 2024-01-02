@@ -30,7 +30,7 @@ local TextLabel_7 = Instance.new("TextLabel")
 local names = Instance.new("TextLabel")
 
 --no borrar
-ScreenGui.Name = "ModMenu"
+ScreenGui.Name = "Farm"
 ScreenGui.ResetOnSpawn = false
 ScreenGui.DisplayOrder = 999
 ScreenGui.Parent = player.PlayerGui
@@ -155,7 +155,7 @@ TextButton.TextWrapped = true
 
 UICorner.Parent = TextButton
 
-verJugadores.Name = "verJugadores"
+verJugadores.Name = " View Stats"
 verJugadores.Parent = Frame_2
 verJugadores.AnchorPoint = Vector2.new(0.5, 0)
 verJugadores.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -164,7 +164,7 @@ verJugadores.BorderSizePixel = 2
 verJugadores.Position = UDim2.new(0.5, 0, 0, 1)
 verJugadores.Size = UDim2.new(0.99000001, 0, 0.119999997, 0)
 verJugadores.Font = Enum.Font.SourceSans
-verJugadores.Text = "Ver Jugadores"
+verJugadores.Text = "Players"
 verJugadores.TextColor3 = Color3.fromRGB(0, 0, 0)
 verJugadores.TextScaled = true
 verJugadores.TextSize = 14.000
@@ -181,7 +181,7 @@ reb.BorderSizePixel = 2
 reb.Position = UDim2.new(0.5, 0, 0.100000001, 8)
 reb.Size = UDim2.new(0.99000001, 0, 0.100000001, 0)
 reb.Font = Enum.Font.SourceSans
-reb.Text = "Rebirth ON"
+reb.Text = "Rebirth On"
 reb.TextColor3 = Color3.fromRGB(0, 0, 0)
 reb.TextScaled = true
 reb.TextSize = 14.000
@@ -198,7 +198,7 @@ enemigp.BorderSizePixel = 0
 enemigp.Position = UDim2.new(0.5, 0, 0.25, 0)
 enemigp.Size = UDim2.new(1, 0, 0.100000001, 0)
 enemigp.Font = Enum.Font.SourceSans
-enemigp.Text = "Enemigo seleccionado"
+enemigp.Text = "Farm Selected"
 enemigp.TextColor3 = Color3.fromRGB(0, 0, 0)
 enemigp.TextScaled = true
 enemigp.TextSize = 14.000
@@ -232,7 +232,7 @@ Stats.BorderSizePixel = 0
 Stats.Position = UDim2.new(0.5, 0, 0.5, 10)
 Stats.Size = UDim2.new(1, 0, 0.100000001, 0)
 Stats.Font = Enum.Font.SourceSans
-Stats.Text = "Estadisticas"
+Stats.Text = "Stats"
 Stats.TextColor3 = Color3.fromRGB(0, 0, 0)
 Stats.TextScaled = true
 Stats.TextSize = 14.000
@@ -304,7 +304,7 @@ TextLabel_5.BorderSizePixel = 0
 TextLabel_5.Position = UDim2.new(0.5, 0, 0.600000024, 0)
 TextLabel_5.Size = UDim2.new(1, 0, 0.119999997, 0)
 TextLabel_5.Font = Enum.Font.Unknown
-TextLabel_5.Text = "Discord:"
+TextLabel_5.Text = "By:"
 TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_5.TextScaled = true
 TextLabel_5.TextSize = 14.000
@@ -320,7 +320,7 @@ TextLabel_6.BorderSizePixel = 0
 TextLabel_6.Position = UDim2.new(0.5, 0, 0.75, 0)
 TextLabel_6.Size = UDim2.new(1, 0, 0.150000006, 0)
 TextLabel_6.Font = Enum.Font.SourceSansItalic
-TextLabel_6.Text = "j.robert_oppenheimer"
+TextLabel_6.Text = "1SK1_NIX"
 TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_6.TextScaled = true
 TextLabel_6.TextSize = 14.000
@@ -476,7 +476,7 @@ local function IIJT_fake_script() -- verJugadores.Script
 			y = y + 0.05
 			contador = contador + 1
 		end
-		textoContador.Text = "Jugadores En Partida: "..contador
+		textoContador.Text = "Stats Players: "..contador
 	end
 	
 	local function resetFrame()	-- lipiar el menu
@@ -520,7 +520,7 @@ local function PCCXXGM_fake_script() -- reb.Script
 	
 	local function a()
 		while rebSiONo do
-			botona.Text = "Rebirth Activo"
+			botona.Text = "Rebirth On"
 			game:GetService("ReplicatedStorage"):WaitForChild("Package"):WaitForChild("Events"):WaitForChild("reb"):InvokeServer()
 			wait(0.1)
 		end
@@ -531,7 +531,7 @@ local function PCCXXGM_fake_script() -- reb.Script
 			verdad = false
 			rebSiONo = false
 			print("Has cancelado reb")
-			botona.Text = "Rebirth Cancelado"
+			botona.Text = "Rebirth Off"
 		else
 			verdad = true
 			rebSiONo = true
@@ -557,18 +557,18 @@ local function PGPDYH_fake_script() -- Frame_2.Script
 	local frameOriginal = script.Parent.Parent.verificacion
 	local verdad = false
 	local usuarios = {
+		{nombre= "sawyfps",verificado = true},
 		{nombre= "l2l2l2l0pi",verificado = true},
-		{nombre= "sawyfps,verificado = true},
-		{nombre= "Falconer02",verificado = true},
-		{nombre= "daviddornela",verificado = true},
+		{nombre= "V1T0RKiller157",verificado = true},
+		{nombre= "Facolner02",verificado = true},
 		{nombre= "GOKUVSJJJ",verificado = true},
-		{nombre= "Oabcoanedksj",verificado = true},
+		{nombre= "DanteAono",verificado = true},
 		{nombre= "felipe_top2020",verificado = true},
-		{nombre= "BigColtX",verificado = true},
-		{nombre= "No User",verificado = true},
-		{nombre= "No User",verificado = true},
-		{nombre= "No User",verificado = true},
-		{nombre= "No User",verificado = true},
+		{nombre= "Facolner02",verificado = true},
+		{nombre= "daviddornela",verificado = true},
+		{nombre= "DaviGamer50000",verificado = true},
+		{nombre= "SuperSonGokuKaioken",verificado = true},
+		{nombre= "Oabcoanedksj",verificado = true}
 	}
 	local contador = 0
 	
@@ -840,7 +840,7 @@ local function PGPDYH_fake_script() -- Frame_2.Script
 	_G.fasesalv=true
 	spawn(function ()
 		while _G.fasesalv do
-			local fases={"SSJBUI","Ultra Ego","SSJB4","LBSSJ4","SSJR3","SSJB3","True God of Creation","True God of Destruction","God of Destruction","God Of Creation","Jiren Ultra Instinct","Mastered Ultra Instinct","Godly SSJ2","Super Broly","Ultra Instinct Omen","LSSJG","Evil SSJ","Blue Evolution","Dark Rose","Kefla SSJ2","SSJ Berserker","LSSJ4","True Rose","SSJB Kaioken","SSJG4","LSSJ3","SSJ Rose","SSJ Blue","SSJ5","Corrupt SSJ","SSJ Rage","SSJG","SSJ4","SSJ3","SSJ2","SSJ"}
+			local fases={"Beast","SSJB4","LBSSJ4","SSJR3","SSJB3","True God of Creation","True God of Destruction","God of Destruction","God Of Creation","Jiren Ultra Instinct","Mastered Ultra Instinct","Godly SSJ2","Super Broly","Ultra Instinct Omen","LSSJG","Evil SSJ","Blue Evolution","Dark Rose","Kefla SSJ2","SSJ Berserker","LSSJ4","True Rose","SSJB Kaioken","SSJG4","LSSJ3","SSJ Rose","SSJ Blue","SSJ5","Corrupt SSJ","SSJ Rage","SSJG","SSJ4","SSJ3","SSJ2","SSJ"}
 			local equipRemote = game:GetService("ReplicatedStorage").Package.Events.equipskill
 			local player = game.Players.LocalPlayer
 			local skills = game.ReplicatedStorage.Package.Skills
@@ -1132,10 +1132,10 @@ end
 	local function ataquesMultiquest()
 		kiRequerimiento()
 		if data.Strength.Value >10000000 and ki > caca and data.Strength.Value <2000000000000 then
-			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Wolf Fang Fist", "Blacknwhite27")
-			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Wolf Fang Fist", "Blacknwhite27")
 			game.ReplicatedStorage.Package.Events.mel:InvokeServer("High Power Rush", "Blacknwhite27")
-			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Mach Kick", "Blacknwhite27")
+			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Wolf Fang Fist", "Blacknwhite27")
+			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Meteor Strike", "Blacknwhite27")
+			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Spirit Breaking Cannon", "Blacknwhite27")
 				wait(0.1)
 			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Super Dragon Fist", "Blacknwhite27")
 				wait(0.1)
@@ -1145,9 +1145,9 @@ end
 			wait(0.5)
 		elseif data.Strength.Value <= 10000000 and ki > caca then
 			wait(0.5)
-			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Wolf Fang Fist", "Blacknwhite27")
+			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Mach Kick", "Blacknwhite27")
 			wait(1)
-			game.ReplicatedStorage.Package.Events.mel:InvokeServer("High Power Rush", "Blacknwhite27")
+			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Meteor Crash", "Blacknwhite27")
 		end
 	end
 	
@@ -1232,3 +1232,102 @@ local function QMIKYEO_fake_script() -- usuario.Script
 	tetxo.Text = player.Name
 end
 coroutine.wrap(QMIKYEO_fake_script)()
+
+
+
+
+
+local Rice = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local Credits = Instance.new("TextLabel")
+local Activate = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local OpenClose = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+
+Rice.Name = "Rice"
+Rice.Parent = game.CoreGui
+Rice.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = Rice
+Main.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.321207851, 0, 0.409807354, 0)
+Main.Size = UDim2.new(0, 295, 0, 116)
+Main.Visible = false
+Main.Active = true
+Main.Draggable =  true
+
+Title.Name = "Title"
+Title.Parent = Main
+Title.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Title.BorderSizePixel = 0
+Title.Size = UDim2.new(0, 295, 0, 16)
+Title.Font = Enum.Font.GothamBold
+Title.Text = "NIX AFK"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 12.000
+Title.TextWrapped = true
+
+Credits.Name = "Credits"
+Credits.Parent = Main
+Credits.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Credits.BorderSizePixel = 0
+Credits.Position = UDim2.new(0, 0, 0.861901641, 0)
+Credits.Size = UDim2.new(0, 295, 0, 16)
+Credits.Font = Enum.Font.GothamBold
+Credits.Text = "Among Us"
+Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credits.TextScaled = true
+Credits.TextSize = 12.000
+Credits.TextWrapped = true
+
+Activate.Name = "Activate"
+Activate.Parent = Main
+Activate.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Activate.BorderColor3 = Color3.fromRGB(27, 42, 53)
+Activate.BorderSizePixel = 0
+Activate.Position = UDim2.new(0.0330629945, 0, 0.243326917, 0)
+Activate.Size = UDim2.new(0, 274, 0, 59)
+Activate.Font = Enum.Font.GothamBold
+Activate.Text = "Activate"
+Activate.TextColor3 = Color3.fromRGB(0, 255, 127)
+Activate.TextSize = 43.000
+Activate.TextStrokeColor3 = Color3.fromRGB(102, 255, 115)
+Activate.MouseButton1Down:connect(function()
+	local vu = game:GetService("VirtualUser")
+	game:GetService("Players").LocalPlayer.Idled:connect(function()
+		vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+		wait(1)
+		vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+	end)
+end)
+
+
+UICorner.Parent = Activate
+
+OpenClose.Name = "Open & Close"
+OpenClose.Parent = Rice
+OpenClose.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+OpenClose.Position = UDim2.new(0.353924811, 0, 0.921739101, 0)
+OpenClose.Size = UDim2.new(0, 247, 0, 35)
+OpenClose.Font = Enum.Font.GothamBold
+OpenClose.Text = "Open/Close"
+OpenClose.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenClose.TextSize = 14.000
+
+UICorner_2.Parent = OpenClose
+
+local function NERMBF_fake_script() -- OpenClose.LocalScript 
+	local script = Instance.new('LocalScript', OpenClose)
+
+	local frame = script.Parent.Parent.Main
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		frame.Visible = not frame.Visible
+	end)
+end
+coroutine.wrap(NERMBF_fake_script)()
