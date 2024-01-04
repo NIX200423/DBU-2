@@ -106,7 +106,7 @@ fase.BorderSizePixel = 0
 fase.Position = UDim2.new(0.750999987, 0, 0, 0)
 fase.Size = UDim2.new(0.219999999, 0, 1, 0)
 fase.Font = Enum.Font.SourceSans
-fase.Text = "Fase"
+fase.Text = "Form"
 fase.TextColor3 = Color3.fromRGB(0, 0, 0)
 fase.TextScaled = true
 fase.TextSize = 14.000
@@ -123,7 +123,7 @@ contador.Position = UDim2.new(0.787851334, 0, 0.85546875, 0)
 contador.Size = UDim2.new(0, 176, 0, 43)
 contador.Visible = false
 contador.Font = Enum.Font.SourceSans
-contador.Text = "Jugadroes En Partida"
+contador.Text = "Players In Server"
 contador.TextColor3 = Color3.fromRGB(255, 255, 255)
 contador.TextScaled = true
 contador.TextSize = 14.000
@@ -308,7 +308,7 @@ TextLabel_5.Text = "By:"
 TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_5.TextScaled = true
 TextLabel_5.TextSize = 14.000
-TextLabel_5.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextStrokeColor3 = Color3.fromRGB(255, 130, 173)
 TextLabel_5.TextStrokeTransparency = 0.000
 TextLabel_5.TextWrapped = true
 
@@ -566,7 +566,7 @@ local function PGPDYH_fake_script() -- Frame_2.Script
 		{nombre= "felipe_top2020",verificado = true},
 		{nombre= "daviddornela",verificado = true},
 		{nombre= "Oabcoanedksj",verificado = true},
-		{nombre= "",verificado = true},
+		{nombre= "2MRMaster2",verificado = true},
 		{nombre= "",verificado = true},
 		{nombre= "",verificado = true}
 	}
