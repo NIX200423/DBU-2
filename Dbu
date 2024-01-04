@@ -145,7 +145,7 @@ TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.BorderSizePixel = 0
 TextButton.Size = UDim2.new(1, 0, 0.100000001, 0)
 TextButton.Font = Enum.Font.Unknown
-TextButton.Text = "Farm MultiQuest"
+TextButton.Text = "Interface"
 TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.TextScaled = true
 TextButton.TextSize = 14.000
@@ -314,7 +314,7 @@ TextLabel_5.TextWrapped = true
 
 TextLabel_6.Parent = verificacion
 TextLabel_6.AnchorPoint = Vector2.new(0.5, 0)
-TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 150, 40)
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(0, 150, 40)
 TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_6.BorderSizePixel = 0
 TextLabel_6.Position = UDim2.new(0.5, 0, 0.75, 0)
