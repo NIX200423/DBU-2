@@ -140,7 +140,7 @@ Frame_2.Visible = false
 
 TextButton.Parent = Frame_2
 TextButton.AnchorPoint = Vector2.new(0, 1)
-TextButton.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
 TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.BorderSizePixel = 0
 TextButton.Size = UDim2.new(1, 0, 0.100000001, 0)
