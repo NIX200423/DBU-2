@@ -146,7 +146,7 @@ TextButton.BorderSizePixel = 0
 TextButton.Size = UDim2.new(1, 0, 0.100000001, 0)
 TextButton.Font = Enum.Font.Unknown
 TextButton.Text = "interface Script"
-TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.TextScaled = true
 TextButton.TextSize = 14.000
 TextButton.TextStrokeColor3 = Color3.fromRGB(255, 0, 0)
@@ -160,7 +160,7 @@ verJugadores.Parent = Frame_2
 verJugadores.AnchorPoint = Vector2.new(0.5, 0)
 verJugadores.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 verJugadores.BorderColor3 = Color3.fromRGB(57, 11, 240)
-verJugadores.BorderSizePixel = 2
+verJugadores.BorderSizePixel = 20
 verJugadores.Position = UDim2.new(0.5, 0, 0, 1)
 verJugadores.Size = UDim2.new(0.99000001, 0, 0.119999997, 0)
 verJugadores.Font = Enum.Font.SourceSans
@@ -381,7 +381,7 @@ local function OEGUBNV_fake_script() -- TextButton.Script
 	
 	boton.MouseButton1Click:Connect(function()
 		if verdadero then
-			verdadero = true
+			verdadero = false
 			frame:TweenPosition(UDim2.new(0.41, 0,1, 0),Enum.EasingDirection.In,Enum.EasingStyle.Linear,0.2,true)
 		else
 			verdadero = true
