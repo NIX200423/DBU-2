@@ -76,7 +76,7 @@ TextLabel_2.BorderColor3 = Color3.fromRGB(17, 0, 255)
 TextLabel_2.Position = UDim2.new(0.300000012, 0, 0, 0)
 TextLabel_2.Size = UDim2.new(0.25, 0, 1, 0)
 TextLabel_2.Font = Enum.Font.SourceSans
-TextLabel_2.Text = "Reb"
+TextLabel_2.Text = "Rebirths"
 TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_2.TextScaled = true
 TextLabel_2.TextSize = 14.000
@@ -145,7 +145,7 @@ TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.BorderSizePixel = 0
 TextButton.Size = UDim2.new(1, 0, 0.100000001, 0)
 TextButton.Font = Enum.Font.Unknown
-TextButton.Text = "interface Script"
+TextButton.Text = "Farm MultiQuest"
 TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.TextScaled = true
 TextButton.TextSize = 14.000
@@ -155,7 +155,7 @@ TextButton.TextWrapped = true
 
 UICorner.Parent = TextButton
 
-verJugadores.Name = "View Stats"
+verJugadores.Name = " View Stats"
 verJugadores.Parent = Frame_2
 verJugadores.AnchorPoint = Vector2.new(0.5, 0)
 verJugadores.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
@@ -273,7 +273,7 @@ TextLabel_4.BorderSizePixel = 0
 TextLabel_4.Position = UDim2.new(0.5, 0, 0, 0)
 TextLabel_4.Size = UDim2.new(1, 0, 0.100000001, 0)
 TextLabel_4.Font = Enum.Font.Unknown
-TextLabel_4.Text = "ID Detected"
+TextLabel_4.Text = "Usuario detectado"
 TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_4.TextScaled = true
 TextLabel_4.TextSize = 14.000
@@ -345,7 +345,7 @@ TextLabel_7.BorderSizePixel = 0
 TextLabel_7.Position = UDim2.new(0.5, 0, 0.100000001, 0)
 TextLabel_7.Size = UDim2.new(0.800000012, 0, 0.300000012, 0)
 TextLabel_7.Font = Enum.Font.Unknown
-TextLabel_7.Text = "IDS"
+TextLabel_7.Text = "Usuarios"
 TextLabel_7.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_7.TextScaled = true
 TextLabel_7.TextSize = 14.000
@@ -381,7 +381,7 @@ local function OEGUBNV_fake_script() -- TextButton.Script
 	
 	boton.MouseButton1Click:Connect(function()
 		if verdadero then
-			verdadero = true
+			verdadero = false
 			frame:TweenPosition(UDim2.new(0.41, 0,1, 0),Enum.EasingDirection.In,Enum.EasingStyle.Linear,0.2,true)
 		else
 			verdadero = true
