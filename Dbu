@@ -711,7 +711,7 @@ local function PGPDYH_fake_script() -- Frame_2.Script
 					[2] = 1
 				}
 				game:GetService("ReplicatedStorage").Package.Events.p:FireServer(unpack(args))
-				if strength.Value>=5000 then
+				if strength.Value>=50000 then
 					break
 				end
 			end
@@ -727,14 +727,14 @@ local function PGPDYH_fake_script() -- Frame_2.Script
 					[3] = CFrame.new(12, 12, 12)
 				}
 				game:GetService("ReplicatedStorage").Package.Events.kb:FireServer(unpack(args))
-				if  energy.Value >=5000 then
+				if  energy.Value >=50000 then
 					break
 				end
 			end
 		end
 		spawn (l)
 		local function m()
-			while defense.Value <5000 do
+			while defense.Value <50000 do
 				--DEFENSE
 				wait(.3)
 				local args = {
@@ -742,14 +742,14 @@ local function PGPDYH_fake_script() -- Frame_2.Script
 				}
 	
 				game:GetService("ReplicatedStorage").Package.Events.def:InvokeServer(unpack(args))
-				if defense.Value >=5000 then
+				if defense.Value >=50000 then
 					break
 				end
 			end
 		end
 		spawn (m)
 		local function p()
-			while speed.Value <5000 do
+			while speed.Value <50000 do
 				wait(.3)
 				game:GetService("ReplicatedStorage"):WaitForChild("Package"):WaitForChild("Events"):WaitForChild("of"):FireServer()
 				if speed.Value >=50000 then
@@ -758,7 +758,7 @@ local function PGPDYH_fake_script() -- Frame_2.Script
 			end
 		end
 		spawn (p)
-		while speed.Value <5000 do
+		while speed.Value <50000 do
 			wait(.3)
 			local args = {
 				[1] = "Blacknwhite27"
