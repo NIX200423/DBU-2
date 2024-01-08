@@ -703,7 +703,7 @@ local function PGPDYH_fake_script() -- Frame_2.Script
 		local energy = statsFolder.Energy
 		local defense = statsFolder.Defense
 		local function s()
-			while strength.Value<5000 do
+			while strength.Value<50000 do
 				wait(.3)
 				--PUNCH
 				local args = {
@@ -718,7 +718,7 @@ local function PGPDYH_fake_script() -- Frame_2.Script
 		end
 		spawn (s)
 		local function l()
-			while energy.Value<5000 do
+			while energy.Value<50000 do
 				wait(.3)
 				--KIBLAST
 				local args = {
@@ -765,7 +765,7 @@ local function PGPDYH_fake_script() -- Frame_2.Script
 			}
 	
 			game:GetService("ReplicatedStorage"):WaitForChild("Package"):WaitForChild("Events"):WaitForChild("ch"):InvokeServer(unpack(args))
-			if speed.Value >=5000 then
+			if speed.Value >=50000 then
 				break
 			end
 		end
