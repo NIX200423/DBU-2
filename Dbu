@@ -1135,19 +1135,19 @@ end
 			game.ReplicatedStorage.Package.Events.mel:InvokeServer("High Power Rush", "Blacknwhite27")
 			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Wolf Fang Fist", "Blacknwhite27")
 			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Meteor Strike", "Blacknwhite27")
-			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Spirit Breaking Cannon", "Blacknwhite27")
+			game.ReplicatedStorage.Package.Events.mel:InvokeServer("", "Blacknwhite27")
 				wait(0.1)
-			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Super Dragon Fist", "Blacknwhite27")
+			game.ReplicatedStorage.Package.Events.mel:InvokeServer("", "Blacknwhite27")
 				wait(0.1)
-			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Multishots", "Blacknwhite27")
+			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Meteor Crash", "Blacknwhite27")
 				wait(0.1)
-			game.ReplicatedStorage.Package.Events.mel:InvokeServer("God Slicer", "Blacknwhite27")
+			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Super Dragon First", "Blacknwhite27")
 			wait(0.5)
 		elseif data.Strength.Value <= 10000000 and ki > caca then
 			wait(0.5)
-			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Mach Kick", "Blacknwhite27")
+			game.ReplicatedStorage.Package.Events.mel:InvokeServer("God Slicer", "Blacknwhite27")
 			wait(1)
-			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Meteor Crash", "Blacknwhite27")
+			game.ReplicatedStorage.Package.Events.mel:InvokeServer("Multishots", "Blacknwhite27")
 		end
 	end
 	
@@ -1309,7 +1309,7 @@ end)
 
 UICorner.Parent = Activate
 
-OpenClose.Name = "Open & Close"
+OpenClose.Name = " "
 OpenClose.Parent = Rice
 OpenClose.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
 OpenClose.Position = UDim2.new(0.353924811, 0, 0.921739101, 0)
